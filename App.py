@@ -16,7 +16,7 @@ Conversion_Rate = EUR/USD#conversion_rate could be gotten from a api
 
 
 #*******************************************************Used to send 1 message only*****************************************************
-TimeToSend = '25'#could be a scanf 
+TimeToSend = '00'#could be a scanf 
 TempVar = int(TimeToSend)
 TimeToRearm = TempVar + 1
 TimeToRearm = str(TimeToRearm)
