@@ -30,7 +30,7 @@ def background_loop():
                     data={"token": token, "user": user, "message": message}
                 )
                 print("Sent notification:", message)
-            time.sleep(3600)  # 5 minutes
+            time.sleep(1800)  # 5 minutes
         except Exception as e:
             print("Error:", e)
             time.sleep(10)
